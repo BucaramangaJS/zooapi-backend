@@ -33,6 +33,9 @@ module.exports = {
       defaultsTo: 'A',
       enum: ['A','B','C']
     },
+    foto:{
+      type: 'string'
+    },
     animales:{
       collection: 'animal',
 			via: 'zoo'

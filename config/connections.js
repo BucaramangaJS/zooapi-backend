@@ -54,7 +54,7 @@ module.exports.connections = {
     user: 'b4cce76c2ca9e8',
     password: 'a4173939',
     database: 'heroku_2a067003a6f29ad'
-  }
+  },
 
   /***************************************************************************
   *                                                                          *

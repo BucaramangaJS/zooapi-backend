@@ -58,11 +58,11 @@ module.exports.routes = {
     'get  /animales'             : 'AnimalController.viewall',
     'get  /animal/:uuid'         : 'AnimalController.profile',
 
-    /*
+
     //rutas para transacciones
     'post /transaccion'           : 'TransaccionController.addnew',
     'get  /transaccion/:uuid'     : 'TransaccionController.profile',
     'get  /transacciones'         : 'TransaccionController.viewall'
-    */
+
 
 };

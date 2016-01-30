@@ -50,6 +50,7 @@ module.exports.routes = {
     'get  /zoos'              : 'ZoologicoController.viewall',
     'get  /zoo/:uuid'         : 'ZoologicoController.profile',
 
+    /*
     //rutas para animales
     'post /animal'               : 'AnimalController.addnew',
     'post /animal/:uuid'         : 'AnimalController.edit',
@@ -61,5 +62,6 @@ module.exports.routes = {
     'post /transaccion'           : 'TransaccionController.addnew',
     'get  /transaccion/:uuid'     : 'TransaccionController.profile',
     'get  /transacciones'         : 'TransaccionController.viewall'
+    */
 
 };

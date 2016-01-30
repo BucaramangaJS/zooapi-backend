@@ -32,9 +32,6 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  }
 
   /***************************************************************************
   *                                                                          *
@@ -45,5 +42,24 @@ module.exports.routes = {
   * for configuration options and examples.                                  *
   *                                                                          *
   ***************************************************************************/
+
+    //rutas para zoologicos
+    'post /zoo'               : 'ZoologicoController.addnew',
+    'post /zoo/:uuid'         : 'ZoologicoController.edit',
+    'get  /zoo/delete/:uuid'  : 'ZoologicoController.inactivate',
+    'get  /zoos'              : 'ZoologicoController.viewall',
+    'get  /zoo/:uuid'         : 'ZoologicoController.profile',
+
+    //rutas para animales
+    'post /animal'               : 'AnimalController.addnew',
+    'post /animal/:uuid'         : 'AnimalController.edit',
+    'get  /animal/delete/:uuid'  : 'AnimalController.inactivate',
+    'get  /animales'             : 'AnimalController.viewall',
+    'get  /animal/:uuid'         : 'AnimalController.profile',
+
+    //rutas para transacciones
+    'post /transaccion'           : 'TransaccionController.addnew',
+    'get  /transaccion/:uuid'     : 'TransaccionController.profile',
+    'get  /transacciones'         : 'TransaccionController.viewall'
 
 };

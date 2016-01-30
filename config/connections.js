@@ -42,11 +42,19 @@ module.exports.connections = {
   ***************************************************************************/
   someMysqlServer: {
     adapter: 'sails-mysql',
-    host: 'YOUR_MYSQL_SERVER_HOSTNAME_OR_IP_ADDRESS',
-    user: 'YOUR_MYSQL_USER',
-    password: 'YOUR_MYSQL_PASSWORD',
-    database: 'YOUR_MYSQL_DB'
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'zooapi-backend'
   },
+
+  devMysqlServer: {
+    adapter: 'sails-mysql',
+    host: 'us-cdbr-iron-east-03.cleardb.net',
+    user: 'b4cce76c2ca9e8',
+    password: 'a4173939',
+    database: 'heroku_2a067003a6f29ad'
+  }
 
   /***************************************************************************
   *                                                                          *
